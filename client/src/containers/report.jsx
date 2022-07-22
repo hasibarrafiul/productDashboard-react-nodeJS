@@ -14,13 +14,6 @@ function createData(name, calories) {
   return { name, calories };
 }
 
-const rows = [
-  createData('Frozen yoghurt', 159),
-  createData('Ice cream sandwich', 237),
-  createData('Eclair', 262),
-  createData('Cupcake', 305),
-  createData('Gingerbread', 356),
-];
 
 function Report() {
 
@@ -71,7 +64,6 @@ function Report() {
         </TableBody>
       </Table>
     </TableContainer>
-        
     )
 
 }
